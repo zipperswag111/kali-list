@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.deb
+*.buildinfo
+*.changes
+*.tar.*
+*.dsc
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+kali-list/
