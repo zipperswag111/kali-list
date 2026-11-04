@@ -1,0 +1,16 @@
+Source: kali-list
+Section: utils
+Priority: optional
+Maintainer: kali-list contributors <maintainers@kali-list.invalid>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+Homepage: https://github.com/zipperswag111/kali-list
+
+Package: kali-list
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}, apt, dpkg
+Description: compact APT package and command catalog for Kali Linux
+ Browse package names, sections, versions, and executable commands without
+ printing extended package documentation. Package data is read from the local
+ APT cache and command data is read from installed Debian packages.
